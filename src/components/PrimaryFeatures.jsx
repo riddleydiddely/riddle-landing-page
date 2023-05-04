@@ -5,36 +5,29 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import dashboard from './../../public/main_features_screenshots/dashboard.png'
+import settlements from './../../public/main_features_screenshots/settlements.png'
+import reporting from './../../public/main_features_screenshots/reporting.png'
 
 const features = [
   {
     title: 'Reconciliation',
     description:
       "Automatically reconcile all of your orders and settlements across your ecom stack",
-    image: screenshotPayroll,
+    image: settlements,
   },
   {
     title: 'Standardized Reporting',
     description:
     "Scale into more regions without extra complexity. Get unified reporting for all of your payment gateways across all of your sales channels.",
-    image: screenshotVatReturns,
+    image: reporting,
   },
   {
     title: 'Unique Insights',
     description:
       "Fees, Returns, Refunds, Chargebacks, Disputes, FX. We know there’s a lot on top of your mind. We’re here to help",
-    image: screenshotExpenses,
+    image: dashboard,
   },
-  // {
-  //   title: 'Reporting',
-  //   description:
-  //     'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-  //   image: screenshotReporting,
-  // },
 ]
 
 export function PrimaryFeatures() {
@@ -134,7 +127,7 @@ export function PrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl  sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       <Image
                         className="w-full"
                         src={feature.image}

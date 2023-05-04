@@ -50,13 +50,13 @@ export function AreYouAnAccountant() {
                       xl:grid-cols-2 ">
               {content.map((item, key) => (
                 <div key={key} class="flex flex-col gap-6 rounded-3xl p-8 ring-1  sm:p-10 lg:flex-row lg:items-center lg:gap-8 bg-white shadow-2xl">
-                  <div class="lg:min-w-0 lg:flex-1">
-                    <h3 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600">{item.title}</h3>
-                    <div class="mt-2 text-sm leading-5 text-gray-600">{item.body}
+                  <div className="lg:min-w-0 lg:flex-1">
+                    <h3 className="text-lg font-semibold leading-8 tracking-tight text-black">{item.title}</h3>
+                    <div className="mt-2 text-sm leading-5 text-gray-600">{item.body}
                     </div>
                   </div>
                   <div>
-                    <div class="inline-block rounded-lg bg-indigo-50 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-indigo-700 hover:bg-indigo-100 cursor-pointer">Get notified
+                    <div className="inline-block rounded-lg shadow-md bg-blue-50 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-blue-700 hover:bg-blue-100 cursor-pointer">Get notified
                       <span aria-hidden="true"> →
                       </span>
                     </div>

@@ -13,7 +13,7 @@ const navigation = {
   social: [
     {
       name: 'Linkedin',
-      href: '#',
+      href: 'https://www.linkedin.com/company/93796263/',
       icon: (props) => (
         <div className='text-2xl'><AiOutlineLinkedin/></div>
       ),
