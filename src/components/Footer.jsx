@@ -33,8 +33,8 @@ const navigation = {
 
 export function Footer() {
   return (
-    <footer className="bg-slate-50">
-      <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+    <footer className="bg-white" id={""}>
+      <div className="mx-auto max-w-7xl overflow-hidden px-8 py-20">
         <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
@@ -53,7 +53,7 @@ export function Footer() {
           ))} 
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-          &copy; {` ${new Date().getFullYear()} Magic Riddle Technology AB, Inc. All rights reserved`}.
+          &copy; {`${new Date().getFullYear()} Magic Riddle Technology AB, Inc. All rights reserved`}.
         </p>
       </div>
     </footer>

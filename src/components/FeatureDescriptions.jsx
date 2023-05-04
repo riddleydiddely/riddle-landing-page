@@ -1,35 +1,40 @@
 
 import { ChatBubbleOvalLeftEllipsisIcon, HeartIcon, PencilSquareIcon, TrashIcon } from '@heroicons/react/24/outline'
+import { AiOutlineHourglass, AiOutlineFastForward, AiOutlineExport, AiOutlineDatabase } from "react-icons/ai";
+
+
 
 const features = [
   {
-    name: 'Some cool feature',
+    name: 'Move Faster, Reduce Stress',
     description:
-      'Autem reprehenderit aut debitis ut. Officiis harum omnis placeat blanditiis delectus sint vel et voluptatum. Labore asperiores non corporis molestiae.',
-    icon: TrashIcon,
+      'Riddle takes away the tedious work so you can focus on what matters most.',
+    icon: <AiOutlineFastForward className='text-white text-2xl' />,
   },
   {
-    name: 'Some cool feature',
-    description:
-      'Autem reprehenderit aut debitis ut. Officiis harum omnis placeat blanditiis delectus sint vel et voluptatum. Labore asperiores non corporis molestiae.',
-    icon: TrashIcon,
+    name: 'Onboard in minutes, not months',
+    description: 'No more developer support and expensive consultant hires. Integrate your techstack with Riddle and get started',
+    icon: <AiOutlineHourglass className='text-white text-2xl' />,
   },
   {
-    name: 'Some cool feature',
+    name: 'Connect',
     description:
-      'Autem reprehenderit aut debitis ut. Officiis harum omnis placeat blanditiis delectus sint vel et voluptatum. Labore asperiores non corporis molestiae.',
-    icon: TrashIcon,
+      'Integrate your Order Management System, Payment Gateways and Bank Accounts, so we can pull all of the transaction data and do the dirty work for you',
+    icon: <AiOutlineDatabase className='text-white text-2xl' />,
   },
   {
-    name: 'Some cool feature',
+    name: 'Export',
     description:
-      'Autem reprehenderit aut debitis ut. Officiis harum omnis placeat blanditiis delectus sint vel et voluptatum. Labore asperiores non corporis molestiae.',
-    icon: TrashIcon,
+      'We know teams work in different ways. We can push the data into your ERP/Accounting System or to a spreadsheet if you’d like.',
+    icon: <AiOutlineExport className='text-white text-2xl' />,
   },
 ]
 
 export default function FeatureDescriptions() {
   return (
+    <section
+    id='howitworks'>
+
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -40,8 +45,9 @@ export default function FeatureDescriptions() {
             {features.map((feature) => (
               <div key={feature.name}>
                 <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                    <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-500">
+                    {/* <feature.icon className="h-6 w-6 text-white" aria-hidden="true" /> */}
+                    {feature.icon}
                   </div>
                   {feature.name}
                 </dt>
@@ -52,5 +58,6 @@ export default function FeatureDescriptions() {
         </div>
       </div>
     </div>
+    </section>
   )
 }

@@ -14,19 +14,19 @@ const features = [
   {
     title: 'Reconciliation',
     description:
-      "Automatically reconcile all your orders and transactions continiously in real time",
+      "Automatically reconcile all of your orders and settlements across your ecom stack",
     image: screenshotPayroll,
   },
   {
-    title: 'Easily handle multiple currencies',
+    title: 'Standardized Reporting',
     description:
-    "Some description",
+    "Scale into more regions without extra complexity. Get unified reporting for all of your payment gateways across all of your sales channels.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Real time financial insights',
+    title: 'Unique Insights',
     description:
-      "Some description on finacial insights",
+      "Fees, Returns, Refunds, Chargebacks, Disputes, FX. We know there’s a lot on top of your mind. We’re here to help",
     image: screenshotExpenses,
   },
   // {
@@ -57,7 +57,7 @@ export function PrimaryFeatures() {
 
   return (
     <section
-      id="features"
+      id="product"
       aria-label="Features for running your books"
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
     >
@@ -149,6 +149,7 @@ export function PrimaryFeatures() {
             </>
           )}
         </Tab.Group>
+        
       </Container>
     </section>
   )

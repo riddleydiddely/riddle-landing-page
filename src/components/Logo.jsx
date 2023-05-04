@@ -28,6 +28,6 @@ export function Logo(props) {
     //     fill="#0F172A"
     //   />
     // </svg>
-    <img src="/riddle_logos/black/400px.png" width="50" height="50"/>
+    <img src="/riddle_logo_full.png" width="150" />
   )
 }
