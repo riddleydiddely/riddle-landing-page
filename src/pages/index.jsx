@@ -9,6 +9,8 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
+import FeatureDescriptions from '@/components/FeatureDescriptions'
+import {AreYouAnAccountant} from '@/components/AreYouAnAccountant'
 
 export default function Home() {
   return (
@@ -17,18 +19,21 @@ export default function Home() {
         <title>TaxPal - Accounting made simple for small businesses</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Your financial operations made simpler"
         />
       </Head>
       <Header />
       <main>
         <Hero />
         <PrimaryFeatures />
-        <SecondaryFeatures />
+        {/* <SecondaryFeatures /> */}
+        <FeatureDescriptions />
+        
         {/* <CallToAction /> */}
-        <Testimonials />
+        {/* <Testimonials /> */}
+        <AreYouAnAccountant/>
         {/* <Pricing /> */}
-        <Faqs />
+        {/* <Faqs /> */}
       </main>
       <Footer />
     </>
