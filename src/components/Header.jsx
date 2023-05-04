@@ -91,7 +91,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10 sticky relative">
+    <header className="py-10 sticky top-0 bg-white z-50 shadow-md">
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
@@ -105,11 +105,7 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <Button href="/register" color="blue">
-              <span>
-                Get started <span className="hidden lg:inline">today</span>
-              </span>
-            </Button>
+
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>

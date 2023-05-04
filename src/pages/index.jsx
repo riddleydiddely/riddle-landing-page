@@ -16,14 +16,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TaxPal - Accounting made simple for small businesses</title>
+        <title>Riddle - Simplify your financials</title>
         <meta
           name="description"
           content="Your financial operations made simpler"
         />
       </Head>
       <Header />
-      <main>
+      <main >
         <Hero />
         <PrimaryFeatures />
         {/* <SecondaryFeatures /> */}
