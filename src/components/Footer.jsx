@@ -8,7 +8,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 const navigation = {
   main: [
     { name: 'Investors', href: 'Investors' },
-    { name: 'Contact Us', href: 'contant-us' },
+    { name: 'Contact Us', href: 'mailto:hello@getriddle.com' },
   ],
   social: [
     {
@@ -35,7 +35,7 @@ export function Footer() {
   return (
     <footer className="bg-white" id={""}>
       <div className="mx-auto max-w-7xl overflow-hidden px-8 py-20">
-        <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
+        <nav className="-mb-6 columns-2 flex justify-center space-x-12" aria-label="Footer">
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
               <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">

@@ -31,7 +31,7 @@ export function Hero() {
       Riddle takes the guesswork out of your financial operations so your team won’t have to. 
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button  href="/register"> <div className={"px-4 py-1 text-xl"}>
+        <Button  href="/"> <div className={"px-4 py-1 text-xl"}>
 
          Get early access
         </div>

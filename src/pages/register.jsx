@@ -10,7 +10,7 @@ export default function Register() {
   return (
     <>
       <Head>
-        <title>Sign Up - TaxPal</title>
+        <title>Sign Up - Riddle</title>
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
@@ -84,6 +84,7 @@ export default function Register() {
           </SelectField>
           <div className="col-span-full">
             <Button
+              //onClick={() => click("fees")}
               type="submit"
               variant="solid"
               color="blue"
