@@ -84,7 +84,6 @@ export default function Register() {
           </SelectField>
           <div className="col-span-full">
             <Button
-              //onClick={() => click("fees")}
               type="submit"
               variant="solid"
               color="blue"

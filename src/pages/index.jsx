@@ -17,6 +17,7 @@ export default function Home() {
     <>
       <Head>
         <title>Riddle - Simplify your financials</title>
+        <script async src="https://tally.so/widgets/embed.js"></script>
         <meta
           name="description"
           content="Your financial operations made simpler"

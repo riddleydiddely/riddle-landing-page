@@ -61,8 +61,8 @@ export function AreYouAnAccountant() {
                     </div>
                   </div>
                   <div>
-                  <a href='mailto:hello@getriddle.com'>
-
+                  <a href="https://tally.so#tally-open=w4BXjX&tally-emoji-text=👋&tally-emoji-animation=wave">
+                  
                     <div className="inline-block rounded-lg shadow-md bg-blue-50 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-blue-700 hover:bg-blue-100 cursor-pointer">
                     {item.cta}
                       <span aria-hidden="true"> →</span>
