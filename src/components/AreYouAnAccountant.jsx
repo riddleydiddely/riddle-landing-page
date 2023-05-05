@@ -44,7 +44,7 @@ export function AreYouAnAccountant() {
               Not all needs are the same.
             </h2>
             <p className="mt-4 text-lg tracking-tight text-white">
-              It's ok, we are here for you.
+              {"It's ok, we are here for you."}
             </p>
           </div>
           <div >
