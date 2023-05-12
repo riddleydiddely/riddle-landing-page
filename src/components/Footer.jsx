@@ -9,6 +9,7 @@ const navigation = {
   main: [
     
     { name: 'Contact Us', href: 'mailto:hello@getriddle.com' },
+    { name: 'Privacy', href: 'https://www.freeprivacypolicy.com/live/59cde2aa-c9d1-472b-a19a-5ec12c8efa5d' },
   ],
   social: [
     {
